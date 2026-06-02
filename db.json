@@ -1,0 +1,66 @@
+{
+  "libros": [
+    {
+      "isbn": "978-0-06-112008-4",
+      "titulo": "To Kill a Mockingbird",
+      "autorId": 1,
+      "anio": 1960,
+      "cantidadDisponible": 5
+    },
+    {
+      "isbn": "978-0-451-52494-2",
+      "titulo": "1984",
+      "autorId": 2,
+      "anio": 1949,
+      "cantidadDisponible": 3
+    },
+    {
+      "isbn": "978-0-7432-7356-5",
+      "titulo": "The Great Gatsby",
+      "autorId": 3,
+      "anio": 1925,
+      "cantidadDisponible": 4
+    }
+  ],
+  "autores": [
+    {
+      "id": 1,
+      "nombre": "Harper Lee",
+      "pais": "Estados Unidos",
+      "aniNacimiento": 1926,
+      "biografia": "Autora estadounidense conocida por su novela 'To Kill a Mockingbird'"
+    },
+    {
+      "id": 2,
+      "nombre": "George Orwell",
+      "pais": "Reino Unido",
+      "aniNacimiento": 1903,
+      "biografia": "Escritor y periodista británico, conocido por sus novelas distópicas"
+    },
+    {
+      "id": 3,
+      "nombre": "F. Scott Fitzgerald",
+      "pais": "Estados Unidos",
+      "aniNacimiento": 1896,
+      "biografia": "Novelista estadounidense de la era del Jazz"
+    }
+  ],
+  "prestamos": [
+    {
+      "id": 1,
+      "libroIsbn": "978-0-06-112008-4",
+      "usuario": "Juan García",
+      "fechaPrestamo": "2024-01-15",
+      "fechaDevolucionEsperada": "2024-02-15",
+      "devuelto": false
+    },
+    {
+      "id": 2,
+      "libroIsbn": "978-0-451-52494-2",
+      "usuario": "María López",
+      "fechaPrestamo": "2024-01-20",
+      "fechaDevolucionEsperada": "2024-02-20",
+      "devuelto": true
+    }
+  ]
+}
