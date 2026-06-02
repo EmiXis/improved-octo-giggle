@@ -1,0 +1,43 @@
+{
+  "name": "biblioteca-crud",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión de Biblioteca con React, json-server y W3.CSS",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  },
+  "scripts": {
+    "react": "react-scripts start",
+    "server": "json-server --watch db.json --port 3001",
+    "start": "concurrently \"npm run server\" \"npm run react\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
